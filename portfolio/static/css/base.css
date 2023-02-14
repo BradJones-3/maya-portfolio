@@ -1,0 +1,294 @@
+body,
+html {
+    font-family: 'Times New Roman', 'sans-serif';
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgb(128,128,128), white);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+
+.active {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: rgb(128,128,128);
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar-toggler-icon {
+    color: black;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link:hover {
+    background-color: rgb(90, 90, 90);
+}
+
+hr {
+    background-color: white;
+    width: 75%;
+}
+
+
+/*  Index Page  */
+
+.index-title {
+    color: aliceblue;
+    width: 100%;
+    display: inline;
+    text-align: center;
+}
+
+/* Carousel */
+
+.center-block {
+    float: none;
+}
+
+#maya-style {
+    width: 200vw;
+    height: 100vh;
+
+    /* Fixes default padding issue with carousel */
+    padding: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+
+.c-image1 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    min-height: 80vh;
+}
+
+.c-image2 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.c-image3 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.c-image4 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.c-image5 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.c-image6 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+.c-image7 {
+    background-image: url(../media/maya-vogue.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    width: 100vw;
+    min-height: 80vh;
+}
+
+/* Industry Work */
+
+.card {
+    background-color: #353839;
+}
+
+.card-body {
+    color: antiquewhite;
+}
+
+.date {
+    color: white;
+}
+
+.bg-custom {
+    background-color: #D1CDC9;
+    border: 3px solid #353839 !important;
+}
+
+.btn-timeline {
+    color: white;
+}
+
+.btn-timeline:hover {
+    text-decoration: underline;
+    color: #F2F2F2 ;
+}
+
+
+/* Footer */
+
+.footer {
+    background: rgb(75,75,75);
+    max-width: 100vw;
+    max-height: 120px;
+}
+
+.socials {
+    text-align: center;
+    padding-left: 0;
+    font-size: 200%;
+}
+
+.socials i {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+.socials i:hover {
+    color: rgb(175, 175, 175);
+}
+
+.dev-link,
+.dev-link > a {
+    color: aliceblue;
+    font-size: 8px !important;
+    padding-right: 10px;
+}
+
+.dev-link a:hover{
+    color: antiquewhite;
+}
+
+.modal-button {
+    cursor: pointer;
+}
+
+/* Modal styles */
+.modal-backdrop {
+    display: none;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+  
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+  
+/* Close button */
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Form group styles */
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Label styles */
+.form-group label {
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Input and textarea styles */
+.form-group input,
+.form-group textarea {
+    width: 80%;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    #carousel {
+      width: 100%;
+    }
+    #carousel img {
+        object-fit: contain;
+        max-height: 100%;
+        width: auto;
+      }
+  }

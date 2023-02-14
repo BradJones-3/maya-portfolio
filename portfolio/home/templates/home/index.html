@@ -2,5 +2,76 @@
 
 {% block content %}
 
+<div class="container">
+    <div class="row">
+        <h1 class="index-title m-2">Maya's Portfolio</h1>
+    </div>
+</div>
+<hr class="spacer">
+
+<div class="container">
+    <div class="row">
+        <!-- ========= Carousel ========= -->
+        <div id="maya-style" class="col center-block">
+            <div id="index-images" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#index-images" data-slide-to="0" class="active"></li>
+                    <li data-target="#index-images" data-slide-to="1"></li>
+                    <li data-target="#index-images" data-slide-to="2"></li>
+                    <li data-target="#index-images" data-slide-to="3"></li>
+                    <li data-target="#index-images" data-slide-to="4"></li>
+                    <li data-target="#index-images" data-slide-to="5"></li>
+                    <li data-target="#index-images" data-slide-to="6"></li>
+                </ul>
+
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item c-image1 active">
+                        <!-- Image 1 called in CSS -->
+                        <span class="c-image1" role="img"
+                            aria-label="Maya's Make up Being Featured In Vogue Magazine"></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image2">
+                        <!-- Image 2 called in CSS -->
+                        <span class="c-image2" role="img" aria-label=""></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image3">
+                        <!-- Image 3 called in CSS-->
+                        <span class="c-image3" role="img" aria-label=""></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image4">
+                        <!-- Image 4 called in CSS-->
+                        <span class="c-image4" role="img" aria-label=""></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image5">
+                        <!-- Image 5 called in CSS-->
+                        <span class="c-image5" role="img" aria-label=""></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image6">
+                        <!-- Image 6 called in CSS-->
+                        <span class="c-image6" role="img" aria-label=""></span>
+                    </div>
+                    <div class="carousel-item w-100 c-image7">
+                        <!-- Image 7 called in CSS-->
+                        <span class="c-image7" role="img" aria-label=""></span>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#index-images" data-slide="prev"
+                    aria-label="Left carousel control">
+                    <span class="carousel-control-prev-icon"></span>
+                    <div class="sr-only">Previous</div>
+                </a>
+                <a class="carousel-control-next" href="#index-images" data-slide="next"
+                    aria-label="Right carousel control">
+                    <span class="carousel-control-next-icon"></span>
+                    <div class="sr-only">Next</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
 {% endblock %}
