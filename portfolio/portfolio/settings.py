@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost']
 
+CSRF_TRUSTED_ORIGINS=['https://8000-bradjones3-mayaportfoli-82ubrvdlrmb.ws-eu86.gitpod.io']
 
 # Application definition
 
@@ -83,7 +84,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
